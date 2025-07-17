@@ -13,10 +13,17 @@ const Header = () => {
         />
       </div>
       <button
-        onClick={toggleTheme}
-        className="p-2 dark:border-gray-700 hover:bg-gray-100 hover:rounded-full dark:hover:bg-gray-800"
+          onClick={toggleTheme}
+        className="flex items-center gap-2 p-2 dark:border-gray-700  transition duration-200 hover:scale-110"
       >
-        {theme === "dark" ? <Sun size={18} /> : <Moon size={18} />}
+        <img
+          src={theme === "dark" ? "/stealth-white.png" : "/spotlight.png"}
+          alt={theme === "dark" ? "Stealth" : "Spotlight"}
+          className="h-5 w-5"
+        />
+        <span className="font-normal tracking-normal font-mono">
+          {theme === "dark" ? "Stealth" : "Spotlight"}
+        </span>
       </button>
     </header>
   )
