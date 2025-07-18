@@ -19,16 +19,15 @@ const Intro = () => {
       </p>
 
       {/* Paragraph 2 */}
-      <p className="  font-sans font-thin leading-relaxed mb-3 text-neutralDark dark:text-neutralGray">
-        I also bring strong DevOps expertise—streamlining deployments with{" "}
-        <span className="font-semibold text-pureBlack dark:text-pureWhite  font-mono text-opacity-100">Docker</span>, orchestrating
-        containers using <span className="font-semibold text-pureBlack dark:text-pureWhite  font-mono text-opacity-100">Kubernetes</span>,
-        automating pipelines through{" "}
-        <span className="font-semibold text-pureBlack dark:text-pureWhite  font-mono text-opacity-100">CI/CD</span>, and leveraging
-        cloud infrastructure on{" "}
-        <span className="font-semibold text-pureBlack dark:text-pureWhite  font-mono text-opacity-100">AWS (EC2, S3)</span> to deliver
-        scalable, reliable systems.
-      </p>
+      <p className="font-sans font-thin leading-relaxed mb-3 text-neutralDark dark:text-neutralGray">
+  I work with{" "}
+  <span className="font-semibold text-pureBlack dark:text-pureWhite font-mono">Docker</span> for containerization and{" "}
+  <span className="font-semibold text-pureBlack dark:text-pureWhite font-mono">Kubernetes</span> for container orchestration.
+  I build{" "}
+  <span className="font-semibold text-pureBlack dark:text-pureWhite font-mono">CI/CD pipelines</span> to automate deployments and use{" "}
+  <span className="font-semibold text-pureBlack dark:text-pureWhite font-mono">AWS (EC2, S3)</span>  for cloud infrastructure and scalability.
+</p>
+
 
       {/* Paragraph 3 */}
       <p className="  font-sans font-thin leading-relaxed  text-neutralDark dark:text-neutralGray">
