@@ -1,4 +1,5 @@
-import React from "react";
+
+
 
 const experiences = [
   {
@@ -38,7 +39,7 @@ const Experience = () => {
             <p className="text-pureBlack dark:text-pureWhite font-sans font-semibold tracking-[0.023] leading-5">
               {exp.company} | {exp.role}
             </p>
-            <p className="text-pureBlack dark:text-pureWhite font-sans font-normal opacity-70 tracking-[0.023] leading-5 mt-1">
+            <p className="text-pureBlack dark:text-pureWhite font-sans font-normal  tracking-[0.023] leading-5 mt-1">
               {exp.description}
             </p>
           </div>
