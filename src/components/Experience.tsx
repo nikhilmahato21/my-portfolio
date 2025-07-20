@@ -2,7 +2,7 @@ import React from "react";
 
 const experiences = [
   {
-    date: "Jan ,2024 - Nov, 2024",
+    date: "Jan, 2024 - Nov, 2024",
     company: "Savera Infotech",
     role: "Frontend Developer",
     description:
@@ -24,9 +24,12 @@ const Experience = () => {
         Experience
       </h2>
       {experiences.map((exp, index) => (
-        <div key={index} className="grid grid-cols-[150px_1fr] gap-4 mb-6">
-          {/* Date on the left */}
-          <p className="text-pureBlack text-sm dark:text-pureWhite font-sans font-thin opacity-70 tracking-[0.023] leading-5">
+        <div
+          key={index}
+          className="mb-6 md:grid md:grid-cols-[150px_1fr] md:gap-4"
+        >
+          {/* Date */}
+          <p className="text-pureBlack text-sm dark:text-pureWhite font-sans font-thin opacity-70 tracking-[0.023] leading-5 mb-2 md:mb-0">
             {exp.date}
           </p>
 
@@ -35,7 +38,7 @@ const Experience = () => {
             <p className="text-pureBlack dark:text-pureWhite font-sans font-semibold tracking-[0.023] leading-5">
               {exp.company} | {exp.role}
             </p>
-            <p className="text-pureBlack dark:text-pureWhite font-sans font-thin opacity-70 tracking-[0.023] leading-5 mt-1">
+            <p className="text-pureBlack dark:text-pureWhite font-sans font-normal opacity-70 tracking-[0.023] leading-5 mt-1">
               {exp.description}
             </p>
           </div>
