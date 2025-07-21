@@ -28,8 +28,8 @@ let blogs = [
   // },
   {
     title: "Connecting Custom Domain to Vercel",
-    date: "2025-01-15",
-    link: "https://your-blog-link.com/custom-domain-vercel",
+    date: "2025-07-21",
+    link: "https://dev.to/nikhil_mahato/connecting-a-custom-domain-to-vercel-46ok",
   },
   {
     title: "Push to multiple GitHub accounts!",
