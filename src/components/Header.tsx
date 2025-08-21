@@ -15,16 +15,13 @@ const Header = () => {
       </div>
       <button
           onClick={toggleTheme}
-        className="flex items-center gap-2 p-2 dark:border-gray-700  transition duration-200 hover:scale-110"
+        className="relative inline-flex h-6 w-11 items-center rounded-full bg-gray-200 dark:bg-gray-700 transition-colors duration-200 hover:scale-110"
       >
-        <img
-          src={theme === "dark" ? "/stealth-white.png" : "/spotlight.png"}
-          alt={theme === "dark" ? "Stealth" : "Spotlight"}
-          className="h-5 w-5"
+        <span
+          className={`inline-block h-4 w-4 transform rounded-full bg-white transition-transform duration-200 ${
+            theme === "dark" ? "translate-x-6" : "translate-x-1"
+          }`}
         />
-        <span className="font-normal tracking-normal font-mono">
-          {theme === "dark" ? "Stealth" : "Spotlight"}
-        </span>
       </button>
     </header>
         <main className="p-4">
