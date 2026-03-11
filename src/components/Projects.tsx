@@ -15,7 +15,7 @@ const projects = [
   {
     title: "TeamSync",
     tech: "React · Express · Node",
-    link: "#",
+    link: "https://teamsyncdev.vercel.app/",
   }
   
 ];
