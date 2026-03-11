@@ -1,4 +1,6 @@
 import Blog from "./components/Blog";
+import ClientWorks from "./components/ClientWorks";
+import Connect from "./components/Connect";
 import Experience from "./components/Experience";
 import Header from "./components/Header";
 import Intro from "./components/Intro";
@@ -18,7 +20,9 @@ const App = () => {
         <Experience/>
         
         <Projects/>
-        <Blog/>
+        <ClientWorks/>
+        <Connect/>
+        {/* <Blog/> */}
       </div>
     </div>
   );

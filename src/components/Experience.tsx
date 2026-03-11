@@ -3,16 +3,16 @@
 
 const experiences = [
   {
-    date: "Jan, 2024 - Nov, 2024",
-    company: "Savera Infotech",
-    role: "Frontend Developer",
-    description:
-      "Built responsive user interfaces using JavaScript, HTML, and CSS. Collaborated with designers to deliver pixel-perfect layouts and optimized web performance.",
-  },
+  date: "June, 2025 - Present",
+  company: "Savera Infotech",
+  role: "FullStack Developer",
+  description:
+    "Build and ship scalable production-ready features across the full stack, developing performant frontends and robust backend APIs. Ensure high code quality, system reliability, and efficient data handling while contributing to product architecture and performance optimization."
+},
   {
     date: "Dec, 2024 - June, 2025",
     company: "QuadBtech",
-    role: "Web3 Developer",
+    role: "FullStack Developer",
     description:
      "Developed the customer-facing functionality and UX for a 3-sided Web3 platform (Customer, Retailer, Seller), implementing role-based authentication, integrating Rust-based APIs, and managing global state with Redux.",
   },

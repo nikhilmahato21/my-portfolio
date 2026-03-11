@@ -14,8 +14,8 @@ const Intro = () => {
         <span className="font-semibold text-pureBlack dark:text-pureWhite  font-mono text-opacity-100">React.js</span>, while for backend
         development I work with{" "}
         <span className="font-semibold text-pureBlack dark:text-pureWhite  font-mono text-opacity-100 ">Node.js</span>,{" "}
-        <span className="font-semibold text-pureBlack dark:text-pureWhite  font-mono text-opacity-100">Java</span>, and{" "}
-        <span className="font-semibold text-pureBlack dark:text-pureWhite  font-mono text-opacity-100">JavaScript</span>.
+        <span className="font-semibold text-pureBlack dark:text-pureWhite  font-mono text-opacity-100">Express</span>, and{" "}
+        <span className="font-semibold text-pureBlack dark:text-pureWhite  font-mono text-opacity-100">TypeScript</span>.
       </p>
 
       {/* Paragraph 2 */}
