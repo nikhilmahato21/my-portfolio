@@ -97,7 +97,7 @@ const ClientRow: React.FC<{
           {String(index + 1).padStart(2, "0")}
         </span>
           <h3
-            className="font-sans font-semibold text-2xl md:text-3xl leading-tight tracking-tight text-pureBlack dark:text-pureWhite"
+            className="font-sans font-semibold text-2xl md:text-3xl leading-tight tracking-tight text-pureBlack opacity-75  dark:text-pureWhite"
             style={{
               letterSpacing: hovered ? "0.01em" : "0",
               transition: "letter-spacing 0.25s cubic-bezier(0.4,0,0.2,1)",

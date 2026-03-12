@@ -49,7 +49,7 @@ const ProjectRow: React.FC<{
         </span>
         <div>
           <h3
-            className="font-sans font-semibold text-2xl md:text-3xl leading-tight tracking-tight text-pureBlack dark:text-pureWhite"
+            className="font-sans font-semibold text-2xl md:text-3xl leading-tight tracking-tight text-pureBlack opacity-75 dark:text-pureWhite"
             style={{
               transition: "letter-spacing 0.25s cubic-bezier(0.4,0,0.2,1)",
               letterSpacing: hovered ? "0.01em" : "0",
